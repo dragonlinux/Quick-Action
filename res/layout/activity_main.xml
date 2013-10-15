@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/root_layout">
+    
+	<Button 
+	    android:id="@+id/btn_left_top"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="leftTop"/>
+    
+	<Button 
+	    android:id="@+id/btn_center_top"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="centerTop"
+	    android:layout_gravity="center_horizontal"
+	    android:layout_centerHorizontal="true"/>
+    
+	<Button 
+	    android:id="@+id/btn_right_top"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="rightTop" 
+	    android:layout_alignParentRight="true" />
+    
+	<Button 
+	    android:id="@+id/btn_center_left"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="centerLeft"
+	   	android:layout_centerVertical="true" />
+    
+	<Button 
+	    android:id="@+id/btn_center_right"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="centerRight" 
+	    android:layout_centerVertical="true" 
+	    android:layout_alignParentRight="true" />
+    
+	<Button 
+	    android:id="@+id/btn_left_bottom"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="leftBottom"
+	    android:layout_alignParentBottom="true"/>
+    
+	<Button 
+	    android:id="@+id/btn_center_bottom"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="centerBottom"
+	    android:layout_centerHorizontal="true"
+	    android:layout_alignParentBottom="true"/>
+    
+	<Button 
+	    android:id="@+id/btn_right_bottom"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="rightBottom"
+	    android:layout_alignParentBottom="true"
+	    android:layout_alignParentRight="true" />
+    
+	
+</RelativeLayout>
